@@ -3,7 +3,7 @@ import torch
 from PIL import Image
 
 # Model
-model = torch.hub.load('ultralytics/yolov5', 'custom', 'resnet18.pt')  # load from PyTorch Hub
+model = torch.hub.load('ultralytics/yolov5', 'custom', 'yolov5s.pt')  # load from PyTorch Hub
 
 #load images
 im2 = cv2.imread(r'source/car.png')
