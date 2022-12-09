@@ -6,7 +6,7 @@ from PIL import Image
 model = torch.hub.load('ultralytics/yolov5', 'custom', 'resnet18.pt')  # load from PyTorch Hub
 
 #load images
-im2 = cv2.imread(r'C:\Users\ranji\OneDrive\Desktop\yolov5-master\yolov5_new\source\person.png')
+im2 = cv2.imread(r'source/car.png')
 
 # Inference
 results = model(im2) # batch of images
